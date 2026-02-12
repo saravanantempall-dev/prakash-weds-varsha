@@ -8,6 +8,7 @@ import CountdownTimer from "./wedding/CountdownTimer";
 import FamilySection from "./wedding/FamilySection";
 import EventsTimeline from "./wedding/EventsTimeline";
 import VenueSection from "./wedding/VenueSection";
+import Footer from "./wedding/Footer";
 
 function App() {
   return (
