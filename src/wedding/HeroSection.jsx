@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import floralTop from "../assets/floral-top.png";
+import floralTop from "../assets/floral-top-removebg-preview.png";
 // import coupleImage from "@/assets/couple-hero.jpg";
 import { Heart } from "lucide-react";
 
@@ -10,9 +10,9 @@ const HeroSection = () => {
       <motion.img
         src={floralTop}
         alt="Floral decoration"
-        className="absolute top-0 left-0 w-full h-auto opacity-90"
+        className="absolute top-0 left-0 w-full h-auto"
         initial={{ opacity: 0, y: -50 }}
-        animate={{ opacity: 0.6, y: 0 }}
+        animate={{ opacity: 0.1, y: 0 }}
         transition={{ duration: 1.2, ease: "easeOut" }}
       />
 

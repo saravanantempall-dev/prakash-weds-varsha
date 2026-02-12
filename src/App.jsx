@@ -9,10 +9,16 @@ import FamilySection from "./wedding/FamilySection";
 import EventsTimeline from "./wedding/EventsTimeline";
 import VenueSection from "./wedding/VenueSection";
 import Footer from "./wedding/Footer";
+import { Helmet } from "react-helmet-async";
 
 function App() {
   return (
     <div className="min-h-screen bg-background overflow-x-hidden">
+      <Helmet>
+        <title>Bulk Due Closure</title>
+        <meta name="description" content="WEDDING INVITATION" />
+        <meta name="keywords" content="WEDDING INVITATION" />
+      </Helmet>
       <FloatingPetals />
       <HeroSection />
       <CountdownTimer />
